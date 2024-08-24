@@ -1,6 +1,11 @@
+---
+title: Neural Nest by @zahraa_bouzeid
+---
+
 Welcome to **Neural Nest**! Below is a breakdown of the content categories you'll find within:
 
 ## Categories
+
 - [Books](Books.md)
 - [Education](Education.md)
 - [Fixes](Fixes.md)
@@ -10,5 +15,7 @@ Welcome to **Neural Nest**! Below is a breakdown of the content categories you'l
 - [Programming](Programming.md)
 - [Work](Work.md)
 - [Obsidian](Obsidian.md)
+
 ## About Me
+
 Feel free to connect with me [here](About%20Me.md).
