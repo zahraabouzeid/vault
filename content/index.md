@@ -1,8 +1,8 @@
 ---
-title: Neural Nest by @zahraa_bouzeid
+title: Start Here
 ---
 
-Welcome to **Neural Nest**! Below is a breakdown of the content categories you'll find within:
+Welcome to **Neural Nest** by [Zahraa Bou Zeid](About%20Me.md)! Below is a breakdown of the content categories you'll find within:
 
 ## Categories
 
