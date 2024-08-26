@@ -23,3 +23,6 @@
 
 ## Mittelstufe
 #### LF8-11
+- [[Einführung in Java]]
+- [[Variablen]]
+- [[Tastatureingaben]]
