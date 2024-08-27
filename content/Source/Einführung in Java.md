@@ -1,24 +1,17 @@
-## Vokalbeln
-**Programm**
-Vollständige Anweisungsfolge für eine EDV-Anlage zur Lösung einer konkreten Aufgabe
+## Vokabeln
+**Programm**: Vollständige Anweisungsfolge für eine EDV-Anlage zur Lösung einer konkreten Aufgabe
 
-**Quellcode**
-Ursprüngliches, in einer Programmiersprache geschriebenes Programm. Erst nach Compilierung ist ein solches Programm ausführbar.
+**Quellcode**: Ursprüngliches, in einer Programmiersprache geschriebenes Programm. Erst nach Compilierung ist ein solches Programm ausführbar.
 
-**Compilieren**
-Übersetzung des Quellcodes in Maschinensprache oder Bytecode (Java). Es wird eine ausführbare Datei erzeugt.
+**Compilieren**: Übersetzung des Quellcodes in Maschinensprache oder Bytecode (Java). Es wird eine ausführbare Datei erzeugt.
 
-**Compiler**
-Programm, das Quellcode übersetzt und eine ausführbare Datei erzeugt.
+**Compiler**: Programm, das Quellcode übersetzt und eine ausführbare Datei erzeugt.
 
-**Interpreter**
-Programm, welches Quellcode während der Ausführung übersetzt.
+**Interpreter**: Programm, welches Quellcode während der Ausführung übersetzt.
 
-**Syntax**
-Rechtschreibung und Grammatik einer Programmiersprache
+**Syntax**: Rechtschreibung und Grammatik einer Programmiersprache
 
-**Algorithmus**
-wiederholbare Handlungsvorschrift zur Lösung einer bestimmten Art von Problemen.
+**Algorithmus**: wiederholbare Handlungsvorschrift zur Lösung einer bestimmten Art von Problemen.
 
 ## Erstes Java Programm
 ```java
@@ -56,7 +49,7 @@ Diese Zeile stellt die `main` Methode dar, die von der JVM aufgerufen wird, wenn
 > Die JVM (Java Virtual Machine) ist eine Laufzeitumgebung, die es ermöglicht, Java-Programme auszuführen.
 ### 3. System.out.println()
 ```java
-	System.out.println("Hallo Welt");
+System.out.println("Hallo Welt");
 ```
 - `System`: eine Klasse in Java, die grundlegende Systemoperationen bereitstellt.
 - `out`: ein Objekt der System Klasse, das den Standardausgabestrom repräsentiert. 
@@ -89,6 +82,7 @@ public class AddTwoNumbers{
         int result;
         int num1 = 10;
         int num2 = 3;
+        System.out.println(num1 + num2);
     } //public static void main (String[] args)
 } //public class AddTwoNumbers
 ```
