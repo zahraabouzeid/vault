@@ -48,17 +48,18 @@ switch (Variable) {
         // Codeblock, der ausgeführt wird, wenn keine Übereinstimmung gefunden wird
 }
 ```
-
+- Mit `switch-case` kann man keine Nachkommazahlen, Wertebereichen und Formeln vergleichen. Strings sind erst ab Java 7 in einem `switch-case` Struktur vergleichbar.
+- Andererseits ist eine switch Variable von Datentyp Int, byte, short, long, enums oder char zulässig.
 ## Vergleichsoperatoren
-| **Operator** | **Erklärung**       | **Beispiel**        |
-|--------------|---------------------|---------------------|
-| `==`         | ist gleich           | `zahl == 15`        |
-| `!=`         | ist ungleich         | `zahl != 0`         |
-| `!`          | Nicht                | `!(zahl == 1)`      |
-| `>`          | größer               | `zahl > 10`         |
-| `<`          | kleiner              | `zahl < 5`          |
-| `>=`         | größer gleich        | `zahl >= 20`        |
-| `<=`         | kleiner gleich       | `zahl <= 8`         |
+| **Operator** | **Erklärung**  | **Beispiel**   |
+| ------------ | -------------- | -------------- |
+| `==`         | ist gleich     | `zahl == 15`   |
+| `!=`         | ist ungleich   | `zahl != 0`    |
+| `!`          | Nicht          | `!(zahl == 1)` |
+| `>`          | größer         | `zahl > 10`    |
+| `<`          | kleiner        | `zahl < 5`     |
+| `>=`         | größer gleich  | `zahl >= 20`   |
+| `<=`         | kleiner gleich | `zahl <= 8`    |
 ## Logische Operatoren
 
 | **Bedingung A** | **Bedingung B** | **A && B** | **A \|\| B** |
