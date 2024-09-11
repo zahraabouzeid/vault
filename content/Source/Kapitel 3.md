@@ -1,3 +1,4 @@
+# Funktionen
 ## Klein
 - Je kleiner eine Funktion ist, wird sie besser lesbar und verstehbar
 - "Eine Funktion sollte nicht länger als eine Bildschirmseite sein". Diese Regel stimmt nicht mehr, denn heutzutage können wir mehr als 100 Zeilen auf einem Bildschirm unterbringen.

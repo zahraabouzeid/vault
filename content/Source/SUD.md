@@ -27,3 +27,5 @@
 - [[Variablen und Operatoren]]
 - [[Tastatureingaben]]
 - [[Verzweigungen]]
+- [[Schleifen]]
+- [[Debugger]]

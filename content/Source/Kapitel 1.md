@@ -1,3 +1,4 @@
+# Sauberer Code
 ## Code 
 - Code repräsentiert die Details der Anforderungen. 
 - Diese Details können nicht ignoriert oder abstrahiert werden. 

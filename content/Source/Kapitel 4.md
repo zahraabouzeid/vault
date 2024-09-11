@@ -1,3 +1,4 @@
+# Kommentare
 ## Kommentare
 - Kommentare sind ein Zeichen der Unfähigkeit unsere Absichten klar auszudrücken.
 - Ein alter Kommentar enthält meistens falsche Informationen.

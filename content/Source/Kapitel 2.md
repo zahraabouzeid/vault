@@ -1,3 +1,4 @@
+# Aussagekräftige Namen
 ## Zweckbeschreibende Namen wählen
 - Gute Namen zu wählen braucht zwar Zeit, spart aber letztendlich mehr Zeit ein.
 - Der Name der Variablen, Klassen und Funktionen sollte es genau beschreiben, warum es existiert, was er tut und wie er benutzt wird.
