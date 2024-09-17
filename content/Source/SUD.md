@@ -29,3 +29,5 @@
 - [[Verzweigungen]]
 - [[Schleifen]]
 - [[Debugger]]
+- [[Methoden]]
+- [[Random Modul]]
