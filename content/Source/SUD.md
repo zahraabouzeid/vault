@@ -31,3 +31,4 @@
 - [[Debugger]]
 - [[Methoden]]
 - [[Random Modul]]
+- [[Arrays]]

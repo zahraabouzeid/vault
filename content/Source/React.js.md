@@ -8,5 +8,9 @@ These are summaries based on the [react.gg](https://ui.dev/c/react) course on [u
 - [[Props]]
 - [[Elements vs Components]]
 - [[Handling Events]]
-- [[React Events]]
+- [[JavaScript Events]]
 - [[Preserving values with useState]]
+- [[Using useState]]
+
+## Other Sources
+- [useMemo](https://react.dev/reference/react/useMemo)

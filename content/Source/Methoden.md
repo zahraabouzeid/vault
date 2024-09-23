@@ -60,7 +60,7 @@ else {
 // z ist hier nicht zugreifbar`
 ```
 
-**for-Schleifen-Gültigkeitsbereich**: 
+**for-Schleifen**: 
 Variablen, die in einer `for`-Schleife deklariert werden, sind nur innerhalb der Schleife gültig. Sie können nicht außerhalb der Schleife verwendet werden.
 
 ```java
