@@ -11,6 +11,7 @@ These are summaries based on the [react.gg](https://ui.dev/c/react) course on [u
 - [[JavaScript Events]]
 - [[Preserving values with useState]]
 - [[Using useState]]
+- [[Why react renders]]
 
 ## Other Sources
 - [useMemo](https://react.dev/reference/react/useMemo)

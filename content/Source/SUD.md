@@ -32,3 +32,5 @@
 - [[Methoden]]
 - [[Random Modul]]
 - [[Arrays]]
+- [[Sortieralgorithmen]]
+- [[Rekursion]]
