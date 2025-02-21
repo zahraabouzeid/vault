@@ -1,3 +1,4 @@
+
 ## Speicherverwaltung
 [Erklärungsvideo Stack vs Heap](https://youtu.be/LTnp79Ke8FI?si=fA2O5RbnPNWFu2m-)
 

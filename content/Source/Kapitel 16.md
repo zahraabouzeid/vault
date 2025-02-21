@@ -1,0 +1,14 @@
+### Refactoring von SerialDate
+- Code Reviews ist nicht aus Böswilligkeit oder da man sich für so viel besser als andere Entwickler, sondern ist es nicht mehr und nicht weniger als eine professionelle Begutachtung.
+- Erstens wurden Unit Tests durchgeführt um den Code coverage zu überprüfen => Ergebnis: 50%
+- Zunächst schrieb er seine eigene Unit-Tests (92% Coverage)
+- Einige Tests scheitern, deswegen wurden sie auskommentiert und werden später nach Refactoring von SerialDate zum Laufen gebracht.
+- Änderungshistorie entfernt (Sourcecode-Control-Systeme sind schon eine Option).
+- Integers nach enum umgebaut (Month S. 322).
+- Basisklassen sollen nichts über ihre abgeleiteten Klassen wissen.
+- Kommentare wurden entfernt (JavaDoc),  da der Code genug ausdrücklich ist.
+- Wenn Enums groß werden, am besten sie und ihre Methoden in eigene Source-Datei auslagern.
+- Statische Methoden nach Instanz Methoden umgebaut, da sie mit Instanz Variablen arbeiten (S. 331).
+- Tauschender Code verbessert (S. 332)
+- Explaining Temporary Variablen benutzen.
+- Methode in die Basisklasse verschoben, da sie keine besondere Abhängigkeiten in der abgeleitete Klasse hat.

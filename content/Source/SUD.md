@@ -44,3 +44,5 @@
 - [[Exceptions bei Vererbung]]
 - [[Polymorphie]]
 - [[Beziehungen]]
+- [[Static]]
+- [[Interfaces]]
