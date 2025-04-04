@@ -11,6 +11,7 @@
 - [MariaDB](MariaDB.md)
 - [Electron](Electron.md)
 - [[React.js]]
+- [[Typescript]]
 
 ## IDEs
 - [Rad Studio](Rad%20Studio.md)

@@ -14,5 +14,6 @@
 - [[Kapitel 14]]
 - [[Kapitel 15]]
 - [[Kapitel 16]]
+- [[Kapitel 17]]
 
-kapitel 15 und 16 und interessante stelle aussuchen
+Kapitel 17: 337 - 372

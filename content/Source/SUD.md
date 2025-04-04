@@ -46,3 +46,4 @@
 - [[Beziehungen]]
 - [[Static]]
 - [[Interfaces]]
+- [[Lambda und Anonyme Klassen]]

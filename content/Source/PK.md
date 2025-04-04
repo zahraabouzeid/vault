@@ -9,3 +9,4 @@
 ## Mittelstufe
 - [[Betriebsrat]]
 - [[Jungend und Auszubildendenvertretung]]
+- [[Tarifverträge]]
