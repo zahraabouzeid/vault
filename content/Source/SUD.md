@@ -44,6 +44,15 @@
 - [[Exceptions bei Vererbung]]
 - [[Polymorphie]]
 - [[Beziehungen]]
+---
 - [[Static]]
 - [[Interfaces]]
+- [[Collections]]
+- [[Dynamic Arrays]]
+- [[Linked List]]
+- [[Graphen und Binäre Bäume]]
+- [[Generics]]
+- [[Factories]]
+- [[Sort Methode]]
+---
 - [[Lambda und Anonyme Klassen]]
