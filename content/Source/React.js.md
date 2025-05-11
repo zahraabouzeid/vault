@@ -17,6 +17,7 @@ These are summaries based on the [react.gg](https://ui.dev/c/react) course on [u
 - [[Teleportation with Context]]
 - [[useReducer for Complex State Management]]
 - [[useEffectEvent]]
+- [[Concurrent Rendering]]
 
 ## Other Sources
 - [useMemo](https://react.dev/reference/react/useMemo)

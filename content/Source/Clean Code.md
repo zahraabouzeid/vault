@@ -15,5 +15,4 @@
 - [[Kapitel 15]]
 - [[Kapitel 16]]
 - [[Kapitel 17]]
-
-Kapitel 17: 337 - 372
+- [[Nebenläufigkeit II]]
