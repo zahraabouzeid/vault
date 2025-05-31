@@ -1,4 +1,3 @@
-
 ## inner classes
 - Eine **innere Klasse** (inner class) wird **innerhalb einer anderen Klasse** definiert.
 - Sie hat **Zugriff auf alle Member der äußeren Klasse**, auch auf **private**.

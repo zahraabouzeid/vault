@@ -9,3 +9,9 @@
 - [Wirtschaftsordnungen](Wirtschaftsordnungen.md)
 - [Wirtschaftskreislauf](Wirtschaftskreislauf.md)
 - [[Aktien und Altersvorsorge]]
+
+## Mittelstufe
+- [[Grundlagen des Marketings]]
+- [[Analyse der Marktsituation]]
+- [[Preisentwicklung]]
+- [[Absatzpolitikplanung]]
