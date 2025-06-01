@@ -15,6 +15,6 @@
 - [[SWOT-Analyse]]
 - [[Marktgrößen]]
 - [[Nachfrage]]
-- [[Source/Preiskalkulation]]
+- [[Preiskalkulation]]
 - [[Deckungsbeitrag und Gewinnschwelle]]
 - [[Absatzpolitikplanung]]

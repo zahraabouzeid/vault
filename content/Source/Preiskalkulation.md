@@ -182,21 +182,21 @@ Die Trelle KG produziert neuartige Elektromotoren für Teleskopantennen. Ermitte
 
 **Motor B:**
 
-| Zuschlags-Satz | Position                | €          | Hinweise                                            |
-| -------------- | ----------------------- | ---------- | --------------------------------------------------- |
-| –              | Fertigungsmaterial      | 33,00      | gegeben                                             |
-| +18 %          | Materialgemeinkosten    | 5,94       | 18 % von 33,00 = 0,18 × 33,00                       |
-| =              | **Materialkosten**      | **38,94**  | 33,00 + 5,94                                        |
-| –              | Fertigungslöhne         | 7,00       | gegeben                                             |
-| +105 %         | Fertigungsgemeinkosten  | 7,35       | 105 % von 7,00 = 1,05 × 7,00                        |
-| =              | **Fertigungskosten**    | **14,35**  | 7,00 + 7,35                                         |
-| =              | **Herstellkosten**      | **53,29**  | 38,94 + 14,35                                       |
-| +30 %          | Verwaltungsgemeinkosten | 15,99      | 30 % von 53,29 = 0,30 × 53,29                       |
-| +15 %          | Vertriebsgemeinkosten   | 7,99       | 15 % von 53,29 = 0,15 × 53,29                       |
-| =              | **Selbstkosten**        | **77,27**  | 53,29 + 15,99 + 7,99                                |
-| +12 %          | Gewinn                  | 9,27       | 12 % von 77,27 = 0,12 × 77,27                       |
-| =              | **Barverkaufspreis**    | **86,54**  | 77,27 + 9,27                                        |
-| +3 %           | Kundenskonto            | 2,67       | 86,54 ÷ 0,97 × 0,03                                 |
-| =              | **Zielverkaufspreis**   | **89,22**  | 86,54 ÷ 0,97                                        |
-| +25 %          | Kundenrabatt            | 29,74      | 89,21 ÷ 0,75 × 0,25 oder 89,21 ÷ (1 - 0,25) - 89,21 |
-| =              | **Listenverkaufspreis** | **118,96** | 89,22 + 29,74                                       |
+| Zuschlags-Satz | Position                | €          | Hinweise                      |
+| -------------- | ----------------------- | ---------- | ----------------------------- |
+|                | Fertigungsmaterial      | 33,00      | gegeben                       |
+| +18 %          | Materialgemeinkosten    | 5,94       | 18 % von 33,00 = 0,18 × 33,00 |
+| =              | **Materialkosten**      | **38,94**  | 33,00 + 5,94                  |
+|                | Fertigungslöhne         | 7,00       | gegeben                       |
+| +105 %         | Fertigungsgemeinkosten  | 7,35       | 105 % von 7,00 = 1,05 × 7,00  |
+| =              | **Fertigungskosten**    | **14,35**  | 7,00 + 7,35                   |
+| =              | **Herstellkosten**      | **53,29**  | 38,94 + 14,35                 |
+| +30 %          | Verwaltungsgemeinkosten | 15,99      | 30 % von 53,29 = 0,30 × 53,29 |
+| +15 %          | Vertriebsgemeinkosten   | 7,99       | 15 % von 53,29 = 0,15 × 53,29 |
+| =              | **Selbstkosten**        | **77,27**  | 53,29 + 15,99 + 7,99          |
+| +12 %          | Gewinn                  | 9,27       | 12 % von 77,27 = 0,12 × 77,27 |
+| =              | **Barverkaufspreis**    | **86,54**  | 77,27 + 9,27                  |
+| +3 %           | Kundenskonto            | 2,67       | 86,54 ÷ 0,97 × 0,03           |
+| =              | **Zielverkaufspreis**   | **89,22**  | 86,54 ÷ 0,97                  |
+| +25 %          | Kundenrabatt            | 29,74      | 89,21 ÷ 0,75 × 0,25           |
+| =              | **Listenverkaufspreis** | **118,96** | 89,22 + 29,74                 |
