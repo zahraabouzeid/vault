@@ -14,5 +14,5 @@
 - [[Grundlagen des Marketings]]
 - [[SWOT-Analyse]]
 - [[Marktgrößen]]
-- [[Preisentwicklung]]
+- [[Source/Nachfrage]]
 - [[Absatzpolitikplanung]]
