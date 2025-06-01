@@ -14,5 +14,7 @@
 - [[Grundlagen des Marketings]]
 - [[SWOT-Analyse]]
 - [[Marktgrößen]]
-- [[Source/Nachfrage]]
+- [[Nachfrage]]
+- [[Source/Preiskalkulation]]
+- [[Deckungsbeitrag und Gewinnschwelle]]
 - [[Absatzpolitikplanung]]
