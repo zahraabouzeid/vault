@@ -12,6 +12,7 @@
 
 ## Mittelstufe
 - [[Grundlagen des Marketings]]
-- [[Analyse der Marktsituation]]
+- [[SWOT-Analyse]]
+- [[Marktgrößen]]
 - [[Preisentwicklung]]
 - [[Absatzpolitikplanung]]
