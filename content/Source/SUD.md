@@ -44,7 +44,6 @@
 - [[Exceptions bei Vererbung]]
 - [[Polymorphie]]
 - [[Beziehungen]]
----
 - [[Static]]
 - [[Interfaces]]
 - [[Collections]]
@@ -55,4 +54,11 @@
 - [[Factories]]
 - [[Sort Methode]]
 ---
+- [[Source/Design Principles|Design Principles]]
+- [[Kompositum Pattern]]
+- [[Observer Pattern]]
+- [[GUI]]
 - [[Lambda und Anonyme Klassen]]
+- [[Threads]]
+---
+[[Code Beispiele]]

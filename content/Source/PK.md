@@ -10,3 +10,8 @@
 - [[Betriebsrat]]
 - [[Jungend und Auszubildendenvertretung]]
 - [[Tarifverträge]]
+---
+- [[Die deutsche Politik]]
+- [[Rund um die neue Regierung]]
+- [[AFD und Rechtsextremismus]]
+

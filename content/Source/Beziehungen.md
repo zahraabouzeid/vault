@@ -42,3 +42,4 @@ Die Raute gibt an, welche Klasse das "Ganze" ist. Objekte der anderen Klasse exi
 | ---------------------------------------------------------- | ------------------------------------------------------- |
 | **Unzertrennbar**: Teile leben und sterben mit dem Ganzen. | **Unabhängig**: Teile existieren unabhängig vom Ganzen. |
 | Die Kardinalität des Ganzen ist stets **1**.               | Die Kardinalität des Ganzen kann **beliebig** sein.     |
+

@@ -50,7 +50,7 @@ und kaufen vom eingesparten Betrag noch mehr Dosenfisch.
 - Gilt für **lebensnotwendige Güter** (z. B. Salz, Benzin).
 ### Preiselastizität der Nachfrage:
 - Kennzahl zur Messung der Nachfrageänderung bei Preisänderungen.
-- **Formel:** **e = prozentuale Mengenänderung / prozentuale Preisänderung × 100** 
+- **Formel:** **e = (prozentuale Mengenänderung / prozentuale Preisänderung) × (-1)** 
 #### Elastizitätsbereiche
 ![[Attachments/Pasted image 20250601160421.png|400]]
 - **Elastisch**: e > 1 → starke Reaktion der Menge.
@@ -67,7 +67,7 @@ und kaufen vom eingesparten Betrag noch mehr Dosenfisch.
 **Beispiel:**
 Preisreduktion von 100 € auf 95 € → Nachfrage steigt von 1.000 auf 1.100 Stück  
 → Preisänderung = -5 %, Mengenänderung = +10 %  
-→ Elastizität = 10 % / -5 % = **-2** → **Umsatz steigt**
+→ Elastizität = 10 % / 5 % = **2** > 1 → **Umsatz steigt**
 
 - **Elastizität ist bereichsabhängig**, nicht nur von der Steigung der gesamten Kurve.
 - Auch flache (elastische) Kurven haben unelastische Bereiche (unten).
