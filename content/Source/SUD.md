@@ -53,12 +53,14 @@
 - [[Generics]]
 - [[Factories]]
 - [[Sort Methode]]
----
 - [[Source/Design Principles|Design Principles]]
 - [[Kompositum Pattern]]
 - [[Observer Pattern]]
 - [[GUI]]
 - [[Lambda und Anonyme Klassen]]
 - [[Threads]]
----
-[[Code Beispiele]]
+
+## Oberstufe
+- [[JUnit und Law of Demeter]]
+- [[Singleton Pattern]]
+- 
