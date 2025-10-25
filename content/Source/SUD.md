@@ -61,6 +61,6 @@
 - [[Threads]]
 
 ## Oberstufe
-- [[JUnit und Law of Demeter]]
+- [[Unit Testing and JUnit]]
 - [[Singleton Pattern]]
-- 
+- [[Strategy Pattern]]
