@@ -264,3 +264,264 @@ void testRegistrationSendsEmail() {
     assertTrue(mockEmail.emailSent);  // Keine echte Email
 }
 ```
+
+## Listings
+
+
+```mermaid
+classDiagram
+    class Ente {
+        -name: String
+        -flugVerhalten: FlugVerhalten
+        +Ente(name: String, fv: FlugVerhalten)
+        +setFlugVerhalten(fv: FlugVerhalten)
+        +tuFliegen()
+        +schwimmen()
+        +anzeigen()*
+    }
+    
+    class FlugVerhalten {
+        <<interface>>
+        +fliegen()
+    }
+    
+    class Fluegelschlagen {
+        +fliegen()
+    }
+    
+    class Gleiten {
+        +fliegen()
+    }
+    
+    class NichtFliegen {
+        +fliegen()
+    }
+    
+    class RaketenAntriebsFliegen {
+        +fliegen()
+    }
+    
+    class StockEnte {
+        +anzeigen()
+    }
+    
+    class MoorEnte {
+        +anzeigen()
+    }
+    
+    class GummiEnte {
+        +anzeigen()
+    }
+    
+    class LockEnte {
+        +anzeigen()
+    }
+    
+    class ModellEnte {
+        +anzeigen()
+    }
+    
+    Ente o-- FlugVerhalten
+    
+    FlugVerhalten <|.. Fluegelschlagen
+    FlugVerhalten <|.. Gleiten
+    FlugVerhalten <|.. NichtFliegen
+    FlugVerhalten <|.. RaketenAntriebsFliegen
+    
+    Ente <|-- StockEnte
+    Ente <|-- MoorEnte
+    Ente <|-- GummiEnte
+    Ente <|-- LockEnte
+    Ente <|-- ModellEnte
+```
+### Strategy Interface
+
+#### FlugVerhalten.java
+```java
+package duckSim;
+
+public interface FlugVerhalten {
+    public void fliegen();
+}
+````
+
+### Concrete Strategies
+
+#### Fluegelschlagen.java
+
+```java
+package duckSim;
+
+public class Fluegelschlagen implements FlugVerhalten {
+    public void fliegen() {
+        System.out.println("Ich schlage mit den Flügeln und fliege!!");
+    }
+}
+```
+
+#### Gleiten.java
+
+```java
+package duckSim;
+
+public class Gleiten implements FlugVerhalten {
+    public void fliegen() {
+        System.out.println("Ich gleite durch die Luft!!");
+    }
+}
+```
+
+#### NichtFliegen.java
+
+```java
+package duckSim;
+
+public class NichtFliegen implements FlugVerhalten {
+    public void fliegen() {
+        System.out.println("Ich kann nicht fliegen.");
+    }
+}
+```
+
+#### RaketenAntriebsFliegen.java
+
+```java
+package duckSim;
+
+public class RaketenAntriebsFliegen implements FlugVerhalten {
+    public void fliegen() {
+        System.out.println("Ich fliege mit RRRAKKKETEN-ANTRIEB!");
+    }
+}
+```
+
+
+### Context (abstrakte Basisklasse)
+
+#### Ente.java
+
+```java
+package duckSim;
+
+public abstract class Ente {
+    private String name;
+    private FlugVerhalten flugVerhalten;
+ 
+    public Ente(String name, FlugVerhalten fv) {
+        setName(name));
+        setFlugVerhalten(fv);
+    }
+ 
+    public void setFlugVerhalten(FlugVerhalten fv) {
+        flugVerhalten = fv;
+    }
+ 
+    abstract void anzeigen();
+ 
+    public void tuFliegen() {
+        flugVerhalten.fliegen();
+    }
+ 
+    public void schwimmen() {
+        System.out.println("Alle Enten schwimmen, auch Holzenten!");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+```
+
+### Konkrete Klassen
+
+#### StockEnte.java
+
+```java
+package duckSim;
+
+public class StockEnte extends Ente {
+ 
+    public StockEnte(String name) {
+        super(name, new Fluegelschlagen());
+    }
+ 
+    public void anzeigen() {
+        System.out.println("Ich bin eine echte Stockente");
+    }
+}
+```
+
+#### MoorEnte.java
+
+```java
+package duckSim;
+
+public class MoorEnte extends Ente {
+ 
+    public MoorEnte(String name) {
+        super(name, new Gleiten());
+    }
+ 
+    public void anzeigen() {
+        System.out.println("Ich bin eine echte Moorente");
+    }
+}
+```
+
+#### GummiEnte.java
+
+```java
+package duckSim;
+
+public class GummiEnte extends Ente {
+ 
+    public GummiEnte(String name) {
+        super(name, new NichtFliegen());
+    }
+ 
+    public void anzeigen() {
+        System.out.println("Ich bin eine Gummi-Ente");
+    }
+}
+```
+
+### Main
+
+#### MainEntenSimulator.java
+
+```java
+package duckSim;
+
+import java.util.ArrayList;
+
+public class MainEntenSimulator {
+ 
+    public static void main(String[] args) {
+ 
+        ArrayList<Ente> meineEntchen = new ArrayList<Ente>();
+        
+        meineEntchen.add(new StockEnte("MeinStockEnte"));
+        meineEntchen.add(new GummiEnte("MeinGummiEnte"));
+        meineEntchen.add(new MoorEnte("MeinMoorEnte"));
+
+        for(Ente e: meineEntchen) {
+            System.out.print("Ich bin " + e.getName() + ". ");
+            e.anzeigen();
+            e.tuFliegen();
+        }
+        
+        // Verhalten zur Laufzeit ändern
+        meineEntchen.get(3).setFlugVerhalten(new RaketenAntriebsFliegen());
+        
+        for(Ente e: meineEntchen) {
+            System.out.print(e.getName() + " macht jetzt: ");
+            e.tuFliegen();
+        }
+    }
+}
+```
+
