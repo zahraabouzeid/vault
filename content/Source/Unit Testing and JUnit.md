@@ -15,25 +15,27 @@ Eine einzelne Klasse wird getestet. Viele Tests, sehr schnell. Relativ einfach z
 > [!important]
 > Alle Ebenen sind notwendig. Kleinere Tests decken weniger ab, mehr Tests nötig. Testbarkeit wird wichtiger je fokussierter der Test.
 
+<div style="page-break-after: always;"></div>
+
 ## Was macht Code schwer testbar?
 
-#### Häufige Irrtümer (nicht die wahren Probleme)
+### Häufige Irrtümer (nicht die wahren Probleme)
 
-**Private Methoden**
+#### Private Methoden
 
 Private Methoden gehören nicht zur öffentlichen Schnittstelle einer Klasse. Man muss sie nicht direkt testen, weil sie automatisch durch das Testen der öffentlichen Methoden mitgetestet werden. Wenn eine öffentliche Methode funktioniert und dabei private Methoden nutzt, sind diese auch getestet.
 
-**Using `final`**
+#### Using `final`
 
 Das `final` Keyword verhindert, dass Werte verändert werden können. Das ist kein Problem beim Testen, weil unveränderliche Objekte sogar einfacher zu testen sind. Es gibt keinen Stimulus (Veränderung) am System, aber das macht das Testen nicht schwieriger.
 
-**Lange Methoden**
+#### Lange Methoden
 
 Lange Methoden sind nicht unbedingt schwierig zu testen. Man muss nur verschiedene Testfälle für jeden Zweig (if-else, switch) konstruieren. Es sind zwar mehr Tests nötig, aber technisch nicht schwieriger.
 
-#### Die wahren Probleme
+### Die wahren Probleme
 
-**Mixing `new` with business logic**
+#### Mixing `new` with business logic
 
 Wenn der `new` Operator direkt im produktiven Code steht, entstehen verdeckte Abhängigkeiten. Das bedeutet: Die Klasse erstellt ihre Abhängigkeiten selbst, und man kann sie im Test nicht austauschen.
 
@@ -51,7 +53,9 @@ Im Test muss man jetzt immer mit einer echten MySQL-Datenbank arbeiten. Man kann
 >[!danger]
 >Das Schlüsselwort new gehört in eine Factory Klasse und **nicht** in produktiven Code.
 
-**Mixing Service and Value in one class**
+<div style="page-break-after: always;"></div>
+
+#### Mixing Service and Value in one class
 Wenn man in einer einzigen Klasse **zwei unterschiedliche Verantwortlichkeiten** mischt:  
 eine **Service-Rolle** (also Logik, die etwas _tut_) und eine **Value-Rolle** (also ein Objekt, das nur _Daten hält_).
 
@@ -68,13 +72,13 @@ class Invoice {
 
 ```
 
-**Looking for things (Verletzung des Law of Demeter)**
+#### Looking for things (Verletzung des Law of Demeter)
 
 Wenn Code wie `customer.getWallet().getMoney()` aussieht, spricht man von "looking for things". Das bedeutet: Man muss durch mehrere Objekte navigieren, um das zu bekommen, was man braucht.
 
 **Problem beim Testen:** Man muss alle Zwischenobjekte (Customer, Wallet) erstellen, nur um an Money zu kommen. Das sind verdeckte Abhängigkeiten.
 
-**Doing "work" in the constructor**
+#### Doing "work" in the constructor
 
 Wenn im Konstruktor produktiver Code ausgeführt wird (z.B. Datenbankverbindungen öffnen, Berechnungen durchführen), kann man diesen Code nicht unabhängig von der Objekterstellung testen.
 
@@ -90,7 +94,9 @@ class ReportGenerator {
 
 **Problem:** Jedes Mal, wenn man das Objekt erstellt (auch im Test), wird die Datenbankverbindung aufgebaut. Man kann die Objekterstellung nicht vom eigentlichen Verhalten trennen.
 
-**Global state, static variables, static methods**
+<div style="page-break-after: always;"></div>
+
+#### Global state, static variables, static methods
 
 Bei statischen Methoden und globalem Zustand entsteht eine tiefe Methodenaufrufkette. Alle Methoden in dieser Kette werden automatisch mitgetestet, weil es keinen **Seam** (Nahtstelle) gibt, an dem man eine Test-Version einsetzen könnte.
 
@@ -104,11 +110,11 @@ class UserService {
 
 **Problem:** Man kann `Database.getInstance()` im Test nicht durch eine Test-Datenbank ersetzen. Es werden immer alle Methoden mitgetestet.
 
-**Deep inheritance**
+#### Deep inheritance
 
 Bei tiefer Vererbung testet ein Test automatisch alle Elternklassen mit. Das bedeutet: Wenn eine Methode fehlschlägt, weiß man nicht, ob der Fehler in der aktuellen Klasse oder in einer der Elternklassen liegt.
 
-**Too many conditionals**
+#### Too many conditionals
 
 Wenn eine Methode viele if-else oder switch-case Statements hat, braucht man sehr viele Tests, um alle Zweige abzudecken. Conditionals werden häufig verändert, was bedeutet, dass man die Tests jedes Mal anpassen muss.
 
@@ -125,6 +131,8 @@ void calculatePrice(Order order) {
 ```
 
 Jede Kombination braucht einen eigenen Test.
+
+<div style="page-break-after: always;"></div>
 
 ## Law of Demeter
 
@@ -162,6 +170,8 @@ void testPurchaseIsHorribleBreaksLoD() {
 }
 ```
 
+<div style="page-break-after: always;"></div>
+
 #### Law of Demeter eingehalten
 
 ```java
@@ -188,6 +198,8 @@ void testPurchaseTheRightWay() {
 
 >[!Success]
 >**Dependency Injection** ist die Lösung. Injiziere das spezifische Objekt direkt, statt es durch getter-Ketten zu holen. Es wird auch **Hollywood Principle** genannt: "Don't call us, we'll call you"
+
+<div style="page-break-after: always;"></div>
 
 ## Dependency Injection
 
@@ -233,6 +245,8 @@ void testReport() {
 }
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Test-Doubles
 
 #### Dummy
@@ -270,6 +284,8 @@ void testAddition() {
 }
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Was ist ein Seam?
 
 Ein **Seam** (Naht) ist eine Stelle im Code, an der das Verhalten geändert werden kann, ohne den Code selbst zu ändern.
@@ -301,6 +317,8 @@ graph TD
     style F fill:#ddd
     style G fill:#ddd
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Was ist JUnit?
 
@@ -346,6 +364,8 @@ JUnit bietet sich für verschiedene Entwicklungszenarien an:
 - Vermeidet das Übersehen von Testfällen
 - Führt zu besser durchdachtem Code-Design
 
+<div style="page-break-after: always;"></div>
+
 ## Grundlagen von JUnit-Tests
 
 ### Funktionsweise 
@@ -371,6 +391,8 @@ Ein Fehlschlag kann zwei Gründe haben:
 2. **Errors (unerwartete Fehler):** Kein korrekter Durchlauf des Tests – beispielsweise durch eine unerwartete Exception
 
 Erwartete Fehler werden über die Klasse `AssertionError` realisiert.
+
+<div style="page-break-after: always;"></div>
 
 ## Annotations
 
@@ -422,6 +444,8 @@ void testMethodName() {
 }
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Weitere wichtige Annotations
 
 #### `@Disabled`
@@ -460,10 +484,13 @@ Ein Test läuft in folgender Reihenfolge ab:
 >[!warning]
 >`@BeforeAll` und `@AfterAll` Methoden werden nur einmal ausgeführt und müssen daher `static` sein, da zu diesem Zeitpunkt noch keine Instanz existiert bzw. die Instanz bereits freigegeben wurde.
 
+<div style="page-break-after: always;"></div>
+
 ### Visualisierung des Ablaufs
 
 ```mermaid
 flowchart TD
+%%{init: {'theme':'base', 'themeVariables': { 'fontSize':'10px'}}}%%
     Start([Test Suite startet])
     Start --> BeforeAll["@BeforeAll<br/>(einmalig, static)"]
     
@@ -490,6 +517,7 @@ flowchart TD
     style Destroy fill:#f3e5f5
 ```
 
+<div style="page-break-after: always;"></div>
 
 ## Assert-Methoden
 
@@ -588,6 +616,7 @@ Die Nachricht wird nur angezeigt, wenn der Test fehlschlägt und hilft beim Debu
 assertEquals(5, result, "Die Summe sollte 5 sein");
 ```
 
+<div style="page-break-after: always;"></div>
 
 ## Test Coverage
 
@@ -612,6 +641,8 @@ assertEquals(5, result, "Die Summe sollte 5 sein");
 - Hilft, fehlende Testfälle zu identifizieren
 - **Achtung:** 100% Coverage bedeutet nicht, dass der Code fehlerfrei ist!
 - Coverage ist ein Werkzeug, kein Ziel an sich
+
+<div style="page-break-after: always;"></div>
 
 ## Best Practices
 
@@ -639,6 +670,8 @@ Automatisierte Tests ermöglichen:
 - Beispiele für eine funktionierende Systemkonfiguration
 
 > Documentation rots even faster than code without tests.
+
+<div style="page-break-after: always;"></div>
 
 ### Regel 1: Teste Verhalten, nicht die Implementierung
 
@@ -672,6 +705,8 @@ void testCalculateTotal() {
 }
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Regel 2: Single Responsibility Principle (SRP)
 
 **Eine Testmethode sollte nur eine Sache verifizieren.**
@@ -703,6 +738,8 @@ void testPerson() {
 }
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Regel 3: Sprechende Namen für Testmethoden
 
 **Gute Namen:**
@@ -728,6 +765,8 @@ void testPerson() {
 - Wiederverwendung kann auch mit Komposition erreicht werden
 - Vererbung macht Tests schwerer verständlich
 - Besser: Hilfsmethoden oder Helper-Klassen verwenden
+
+<div style="page-break-after: always;"></div>
 
 ### Regel 6: Gruppiere Tests nach Kontext
 
@@ -760,6 +799,8 @@ class CalculatorTest {
 
 >[!danger]
 >Objekterstellung gehört in Factory Klassen
+
+<div style="page-break-after: always;"></div>
 
 ## Listings
 
@@ -848,6 +889,8 @@ public abstract class Mitarbeiter {
 
 }
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### TestMitarbeiter
 
@@ -1215,6 +1258,8 @@ class TestMitarbeiter {
 	}
 }
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Testen von Konsolen-Output
 

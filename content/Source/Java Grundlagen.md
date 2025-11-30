@@ -1,4 +1,3 @@
-
 ## Operators
 #### Arithmetische Operatoren
 
@@ -47,6 +46,8 @@
 - `>>` Right Shift
 - `>>>` Unsigned Right Shift
 
+<div style="page-break-after: always;"></div>
+
 #### Ternärer Operator
 
  `? :` Ternärer (Conditional)
@@ -84,6 +85,8 @@
 
 - `Arrays.equals()` Array-Inhalte vergleichen
 - `Arrays.deepEquals()` Mehrdimensionale Arrays 
+
+<div style="page-break-after: always;"></div>
 
 ## If-Statements
 
@@ -132,6 +135,8 @@ if (bedingung1) {
 ```java
 variable = (bedingung) ? wertWennTrue : wertWennFalse;
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Switch-Statement
 
@@ -188,6 +193,8 @@ switch (enumVariable) {
 }
 ```
 
+<div style="page-break-after: always;"></div>
+
 #### Switch Expression
 
 ```java
@@ -197,6 +204,8 @@ variable = switch (wert) {
     default -> standardErgebnis;
 };
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Primitive Datentypen
 
@@ -240,6 +249,8 @@ int[] array = {1, 2, 3};
 Object obj = new Object();
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Wrapper-Klassen (für Primitive)
 
 - `Byte` für byte
@@ -255,6 +266,8 @@ Object obj = new Object();
 Integer zahl = 10;
 Double dezimal = 3.14;
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## String-Methoden
 
@@ -319,6 +332,8 @@ String getrimmt = string.trim();
 String[] teile = string.split("trennzeichen");
 ```
 
+<div style="page-break-after: always;"></div>
+
 #### startsWith()
 
 ```java
@@ -380,6 +395,8 @@ Hund hund = new Hund();
 Tier tier = hund;  // Automatisch
 ```
 
+<div style="page-break-after: always;"></div>
+
 #### Object Casting (Downcasting - manuell)
 
 ```java
@@ -394,6 +411,8 @@ if (objekt instanceof TypName) {
     TypName variable = (TypName) objekt;
 }
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Wrapper-Klassen Methoden
 
@@ -456,6 +475,8 @@ long gerundet = Math.round(dezimalzahl);
 ```java
 double zufall = Math.random();  // 0.0 - 1.0
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Formatierung
 
@@ -537,6 +558,8 @@ String ergebnis = df.format(zahl);
 - `.` = Dezimalpunkt
 - `,` = Tausender-Trennzeichen
 
+<div style="page-break-after: always;"></div>
+
 ## Schleifen
 #### For-Loop
 
@@ -586,6 +609,8 @@ do {
 } while (bedingung);
 ```
 
+<div style="page-break-after: always;"></div>
+
 #### Break
 
 ```java
@@ -624,6 +649,8 @@ while (true) {
     if (bedingung) break;
 }
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Collections
 
@@ -678,6 +705,8 @@ removeFirst()
 removeLast()           
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### HashSet
 
 **Keine Duplikate**, keine Reihenfolge, schnell
@@ -718,6 +747,8 @@ floor(element)
 higher(element)        
 lower(element)         
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Queue (mit LinkedList)
 
@@ -765,6 +796,8 @@ stack.push(20);
 int top = stack.pop();  // 20
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Maps
 
 ### HashMap
@@ -808,6 +841,7 @@ for (Map.Entry<String, Integer> entry : map.entrySet()) {
 }
 ```
 
+<div style="page-break-after: always;"></div>
 
 ### TreeMap
 
@@ -825,6 +859,8 @@ floorKey(key)
 higherKey(key)      
 lowerKey(key)         
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Scanner
 
@@ -879,6 +915,8 @@ nextBytes(byte[])
 nextGaussian()           
 ```
 
+<div style="page-break-after: always;"></div>
+
 #### Random in einem Bereich
 
 **Ganzzahlen**
@@ -887,10 +925,11 @@ int zahl = random.nextInt(oben - unten + 1) + unten;
 ```
 
 **Dezimalzahlen**
-e
 ```java
 double zahl = random.nextDouble() * (oben - unten) + unten;
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Exceptions
 #### Checked Exceptions (müssen behandelt werden)
@@ -918,6 +957,8 @@ double zahl = random.nextDouble() * (oben - unten) + unten;
 - `OutOfMemoryError` - Kein Speicher mehr
 - `StackOverflowError` - Stack voll (meist durch Rekursion)
 - `AssertionError` - Assertion fehlgeschlagen
+
+<div style="page-break-after: always;"></div>
 
 ## Try-Catch
 
@@ -971,6 +1012,7 @@ try {
 }
 ```
 
+<div style="page-break-after: always;"></div>
 
 ## Throws 
 
@@ -998,6 +1040,8 @@ public void verarbeiten() throws IOException, SQLException {
 
 >[!tip]
 >Wenn eine Exception im `try` Block auftritt, werden lokale Variablen des Blocks verworfen und der Stack wird "zurückgespult" (Stack Rewind)
+
+<div style="page-break-after: always;"></div>
 
 ## Enums
 
@@ -1053,6 +1097,8 @@ List<Object> autoParams = Arrays.asList("BMW", 200, 4);
 Fahrzeug auto = FahrzeugFactory.erstelleFahrzeug(FahrzeugTyp.AUTO, autoParams);
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Polymorphie
 
 Objekt vom Typ Subklasse kann als Typ der Superklasse behandelt werden
@@ -1101,6 +1147,7 @@ class App implements Executable {
 }
 ```
 
+<div style="page-break-after: always;"></div>
 
 ## Threads
 
@@ -1155,6 +1202,7 @@ thread.setName(name)        // Name setzen
 thread.getName()
 ```
 
+<div style="page-break-after: always;"></div>
 
 ## Lambda
 Kurzschreibweise für anonyme Funktionen (ab Java 8)
@@ -1216,6 +1264,8 @@ zahlen.stream()
       .forEach(x -> System.out.println(x));
 ```
 
+<div style="page-break-after: always;"></div>
+
 **map:**
 
 ```java
@@ -1229,6 +1279,7 @@ namen.stream()
 
 Lambda funktioniert nur mit **Functional Interfaces** (Interface mit **einer** abstrakten Methode)
 
+<div style="page-break-after: always;"></div>
 
 ## Wichtige Imports
 
@@ -1289,6 +1340,8 @@ import java.text.NumberFormat;
 import java.lang.Thread;
 import java.lang.Runnable;
 ```
+
+<div style="page-break-after: always;"></div>
 
 #### Collections Utilities
 

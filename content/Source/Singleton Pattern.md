@@ -28,6 +28,9 @@ Beschreiben, wie Objekte miteinander kommunizieren und Verantwortlichkeiten vert
 ## Singleton 
 
 **Singleton Pattern** ist ein Erzeugungsmuster, das sicherstellt, dass von einer Klasse nur **eine einzige Instanz** existiert und einen globalen Zugriffspunkt darauf bietet.
+
+<div style="page-break-after: always;"></div>
+
 ## Lazy Creation 
 
 ```java
@@ -76,6 +79,8 @@ Unsterblicher u2 = Unsterblicher.getInstance();  // Gibt gleiche zurück
 System.out.println(u1 == u2);  // true es ist dieselbe Instanz!
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Problem: Threads
 
 **Was passiert bei zwei parallelen Threads?**
@@ -122,6 +127,8 @@ public static synchronized Unsterblicher getInstance() {
 
 **Nachteil:** `synchronized` macht die Methode langsamer. Jeder Aufruf muss warten.
 
+<div style="page-break-after: always;"></div>
+
 ## Eager Creation 
 
 ```java
@@ -163,6 +170,8 @@ Eager Creation ist Thread Sicher, da nur eine Instanz erstellt wird, schon vor d
 - Bei großen Objekten: Verschwendung von Speicher
 - Keine verzögerte Initialisierung möglich
 
+<div style="page-break-after: always;"></div>
+
 ## Wann welche Variante?
 
 ### Lazy Creation verwenden wenn:
@@ -180,6 +189,8 @@ Eager Creation ist Thread Sicher, da nur eine Instanz erstellt wird, schon vor d
 - Du willst keine Thread-Probleme
 
 **Beispiel:** Logger, der immer gebraucht wird
+
+<div style="page-break-after: always;"></div>
 
 ## Probleme des Singleton Patterns
 
@@ -258,6 +269,8 @@ class Order {
 - Tester muss durch Trial-and-Error herausfinden, was initialisiert werden muss
 - Verstößt gegen Principle of Least Surprise
 
+<div style="page-break-after: always;"></div>
+
 ### Statische Verklebung (Static Cling)
 
 ```java
@@ -301,6 +314,8 @@ Database.connect();
 
 **Problem**: Keine Compile-Zeit-Garantien für korrekte Initialisierung.
 
+<div style="page-break-after: always;"></div>
+
 ### Verführt zu prozeduralem Code
 
 ```java
@@ -333,6 +348,8 @@ void processOrder(Order order) {
 > - In komplexen Systemen können trotzdem mehrere Instanzen entstehen
 > - Führt zu unübersichtlichem Code
 > - Erschwert Einarbeitung neuer Mitarbeiter
+
+<div style="page-break-after: always;"></div>
 
 ## Bessere Alternative: Dependency Injection
 
@@ -374,6 +391,8 @@ void testCharge() {
 }
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Vorteile von Dependency Injection
 
 ```mermaid
@@ -392,7 +411,7 @@ graph LR
 3. **Testbarkeit**: Leichte Substitution durch Test-Doubles
 4. **Flexibilität**: Verschiedene Konfigurationen möglich
 
-
+<div style="page-break-after: always;"></div>
 
 ## Objekttypen und Singleton-Verwendung
 
@@ -439,6 +458,8 @@ class EmailService {
 - Oft als Singleton implementiert (falsch)
 - Hier ist DI und Law of Demeter besonders wichtig
 
+<div style="page-break-after: always;"></div>
+
 ## Refactoring-Hinweise und Umgang mit Problemen
 
 ### Problem: Schnittstelle fordert Standard-Konstruktor
@@ -472,6 +493,8 @@ class ComplexService {
 **2. Facade Pattern**: Mehrere zusammenhängende Objekte kapseln
 **3. Builder Pattern**: Komplexe Objektkonstruktion vereinfachen
 **4. Parameter Object**: Zusammengehörige Parameter gruppieren
+
+<div style="page-break-after: always;"></div>
 
 ## Wann ist "ein Objekt" in Ordnung?
 

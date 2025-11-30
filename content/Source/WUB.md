@@ -20,4 +20,16 @@
 - [[Absatzpolitikplanung]]
 
 ## Oberstufe
-- [[]]
+
+#### Finanzierung
+- [[Bilanz]]
+- [[Investitionsarten]]
+- [[Finanzierungsarten]]
+- [[Alternative Finanzierungsmöglichkeiten]]
+- [[Kreditsicherheiten]]
+- [[Rechte und Pflichten bei Lieferung]]
+- [[Mängelarten bei Lieferung]]
+- [[Mahnverfahren]]
+- [[Zahlungsverzug und kaufmännische Maßnahmen]]
+- [[Verschuldungsproblematik]]
+- [[Glossar]]

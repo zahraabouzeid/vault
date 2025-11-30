@@ -45,6 +45,7 @@ classDiagram
 2. **ConcreteStrategy**: Konkrete Implementierungen der Algorithmen
 3. **Context**: Verwendet eine Strategy und kann diese wechseln
 
+<div style="page-break-after: always;"></div>
 
 ## Vorteile des Strategy Patterns
 
@@ -90,6 +91,7 @@ graph TD
     style F fill:#FFB6C1
 ```
 
+<div style="page-break-after: always;"></div>
 
 ### Dependency Inversion Principle
 
@@ -137,6 +139,8 @@ classDiagram
 - Klassenexplosion bei vielen Kombinationen
 - Statisch und unflexibel
 
+<div style="page-break-after: always;"></div>
+
 #### Guter Ansatz: Komposition mit Strategy Pattern
 
 ```mermaid
@@ -171,6 +175,8 @@ classDiagram
 - Verhalten zur Laufzeit änderbar
 - Nur eine Context-Klasse nötig
 - Flexibel und erweiterbar
+
+<div style="page-break-after: always;"></div>
 
 ### Encapsulate What Varies
 
@@ -207,6 +213,8 @@ ConcreteStrategyA strategy = new ConcreteStrategyA();
 ```
 
 **Vorteil:** Strategie kann leicht ausgetauscht werden
+
+<div style="page-break-after: always;"></div>
 
 ## Testen ist einfacher mit Strategy Pattern (zum Mocken)
 
@@ -345,6 +353,7 @@ public interface FlugVerhalten {
 }
 ````
 
+
 ### Concrete Strategies
 
 #### Fluegelschlagen.java
@@ -358,6 +367,9 @@ public class Fluegelschlagen implements FlugVerhalten {
     }
 }
 ```
+
+
+<div style="page-break-after: always;"></div>
 
 #### Gleiten.java
 
@@ -395,6 +407,7 @@ public class RaketenAntriebsFliegen implements FlugVerhalten {
 }
 ```
 
+<div style="page-break-after: always;"></div>
 
 ### Context (abstrakte Basisklasse)
 
@@ -435,6 +448,8 @@ public abstract class Ente {
     }
 }
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Konkrete Klassen
 
@@ -488,6 +503,8 @@ public class GummiEnte extends Ente {
     }
 }
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Main
 
