@@ -15,6 +15,8 @@ Mit dem rechtskräftigen Vollstreckungsbescheid in der Hand kann der Gläubiger 
 
 Das Amtsgericht ist für das gerichtliche Mahnverfahren zuständig. Forderungen können in unbegrenzter Höhe geltend gemacht werden. Das Mahnverfahren ist günstiger und schneller als eine normale Klage, da keine mündliche Verhandlung erforderlich ist und das Verfahren standardisiert abläuft.
 
+<div style="page-break-after: always;"></div>
+
 ## Vorteile des Mahnverfahrens
 
 Das Mahnverfahren bietet dem Gläubiger eine schnelle und kostengünstige Möglichkeit, seine Forderungen durchzusetzen, ohne sofort ein aufwendiges Gerichtsverfahren führen zu müssen. Für den Schuldner besteht jederzeit die Möglichkeit, durch Zahlung das Verfahren zu beenden oder durch Widerspruch bzw. Einspruch seine Rechte vor Gericht geltend zu machen.

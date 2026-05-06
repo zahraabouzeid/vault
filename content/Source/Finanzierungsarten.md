@@ -26,6 +26,10 @@ $$\text{Annuität} = \text{Zinsen} + \text{Tilgung} = \text{konstant}$$
 |4|42.949|2.147|20.950|23.097|
 |5|22.000|1.100|22.000|23.100|
 |**Summe**|-|**15.488**|**100.000**|**115.488**|
+
+<div style="page-break-after: always;"></div>
+
+
 **Formel:**
 
 $$
@@ -50,6 +54,9 @@ $$
 - Zu Beginn hoher Zinsanteil
 - Gesamtzinsbelastung höher als bei Tilgungsdarlehen
 - Wenig Flexibilität
+
+<div style="page-break-after: always;"></div>
+
 
 ### Tilgungsdarlehen
 
@@ -86,6 +93,8 @@ $$\text{Tilgung} = \frac{\text{Darlehenssumme}}{\text{Laufzeit}} = \text{konstan
 - Weniger planbar (wechselnde Raten)
 - Liquiditätsdruck zu Beginn
 
+<div style="page-break-after: always;"></div>
+
 ### Festdarlehen (Endfälliges Darlehen)
 
 Ein Darlehen, bei dem der **Zinssatz für die gesamte Laufzeit festgelegt** ist und die **Tilgung erst am Ende** erfolgt.
@@ -120,6 +129,8 @@ Ein Darlehen, bei dem der **Zinssatz für die gesamte Laufzeit festgelegt** ist 
 - Restschuld bleibt konstant hoch
 - Oft höherer Zinssatz als variable Darlehen
 
+<div style="page-break-after: always;"></div>
+
 ### Variabel verzinsliches Darlehen
 
 Ein Darlehen, bei dem der **Zinssatz variabel** ist und sich an einem Referenzzinssatz (z.B. Euribor) orientiert.
@@ -152,6 +163,8 @@ Ein Darlehen, bei dem der **Zinssatz variabel** ist und sich an einem Referenzzi
 - Schwierige Budgetplanung
 - Unsichere Gesamtkosten
 
+<div style="page-break-after: always;"></div>
+
 ### Nachrangdarlehen
 
 Ein Darlehen, bei dem der Darlehensgeber im **Insolvenzfall nachrangig** bedient wird (erst nach anderen Gläubigern).
@@ -175,6 +188,8 @@ Ein Darlehen, bei dem der Darlehensgeber im **Insolvenzfall nachrangig** bedient
 - Höhere Zinsen (höheres Risiko)
 - Im Insolvenzfall nachrangig
 - Oft strengere Bedingungen
+
+<div style="page-break-after: always;"></div>
 
 ## Kredite in der Bilanz
 ![[Attachments/Pasted image 20251130201833.png|300]]

@@ -85,6 +85,9 @@ Jede unternehmerische Investition lässt sich durch drei Merkmale charakterisier
 > - Austausch veralteter Server durch moderne Cloud-Lösungen
 > - Ersatz einer defekten Produktionsmaschine
 > - Erneuerung der Firmenfahrzeuge
+
+<div style="page-break-after: always;"></div>
+
 ### Erweiterungsinvestition
 
 - Unternehmen nimmt Investition vor, um z.B. eine Maschine technisch aufzurüsten
@@ -118,6 +121,9 @@ Jede unternehmerische Investition lässt sich durch drei Merkmale charakterisier
 > - Entwicklung eines neuen Elektrofahrzeugmodells (Automobilhersteller)
 > - Pharmaunternehmen entwickelt neues Medikament
 > - IT-Dienstleister entwickelt neue Software für anderen Markt
+
+<div style="page-break-after: always;"></div>
+
 ## Bruttoinvestition vs. Nettoinvestition
 
 ### Bruttoinvestition
@@ -136,6 +142,8 @@ $$\text{Nettoinvestition} = \text{Bruttoinvestition} - \text{Ersatzinvestition}$
 > - Nettoinvestition > 0: Unternehmen wächst (Kapazitätserweiterung)
 > - Nettoinvestition = 0: Kapazität bleibt gleich (nur Ersatz)
 > - Nettoinvestition < 0: Kapazitätsabbau
+
+<div style="page-break-after: always;"></div>
 
 ## Investitionsanlässe
 

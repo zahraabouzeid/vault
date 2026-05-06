@@ -33,6 +33,8 @@ Wenn nichts vereinbart wurde, muss die Sache:
 > [!example] Beispiel
 > Ein Fernseher, mit dem man nicht fernsehen kann, ist nicht für die gewöhnliche Verwendung geeignet. Es liegt ein Sachmangel vor .
 
+<div style="page-break-after: always;"></div>
+
 #### 3. Montageanforderungen (§ 434 Abs. 4 BGB)
 - **Unsachgemäße Montage** durch Verkäufer/Handwerker = Sachmangel
 - **Fehlerhafte Montageanleitung** des Verkäufers = Sachmangel
@@ -69,6 +71,8 @@ Fähigkeit, mit üblicher Hardware/Software zu funktionieren
 
 **Interoperabilität** (§ 327e Abs. 2 S. 4 BGB):
 Fähigkeit, mit anderer (nicht-üblicher) Hardware/Software zu funktionieren
+
+<div style="page-break-after: always;"></div>
 
 ## Rechtsmangel (§ 435 BGB)
 
@@ -114,6 +118,8 @@ Ein Rechtsmangel liegt vor, wenn **Dritte Rechte** an der Kaufsache haben, die d
 
 > [!danger] Wichtig
 > Bei arglistig verschwiegenen Mängeln sind vertragliche Haftungsausschlüsse unwirksam!
+
+<div style="page-break-after: always;"></div>
 
 ## Maßgeblicher Zeitpunkt
 

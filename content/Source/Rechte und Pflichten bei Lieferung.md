@@ -41,6 +41,8 @@ Diese Rechte kann der Käufer nutzen, wenn die Nacherfüllung fehlgeschlagen ist
 - **Rücktritt vom Kaufvertrag:** Ware zurückgeben, Geld zurückerhalten
 - **Schadensersatz**: Ersatz für entstandene Schäden
 
+<div style="page-break-after: always;"></div>
+
 ## Gewährleistung und Fristen
 
 ### Gewährleistungsfrist
@@ -79,6 +81,8 @@ Lieferverzug liegt vor, wenn der Verkäufer die Ware nicht zum vereinbarten Term
 - **Schadensersatz wegen Verzögerung** 
 - **Rücktritt vom Vertrag:** nach erfolgloser Nachfrist
 - **Schadensersatz statt Leistung**
+
+<div style="page-break-after: always;"></div>
 
 ## Verbraucher vs. Unternehmer
 

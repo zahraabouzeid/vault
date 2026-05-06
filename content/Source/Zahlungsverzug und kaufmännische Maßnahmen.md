@@ -33,6 +33,9 @@ Sofortiger Verzug ist aus besonderen Gründen gerechtfertigt
 Bei **fehlender Frist** oder **unverbindlichem Termin**:
 - Schuldner muss **gemahnt** werden
 - Verzug tritt **mit Zugang der Mahnung** ein
+
+<div style="page-break-after: always;"></div>
+
 ## Verzugszinsen
 
 ### Höhe der Verzugszinsen (§ 288 BGB)
@@ -77,6 +80,8 @@ Wobei:
 > - Mahngebühr: 0,00 € (erste Mahnung)
 > - **Gesamt: 1.509,56 €**
 
+<div style="page-break-after: always;"></div>
+
 ### Bei wechselndem Basiszinssatz
 
 Zieht sich der Verzug über den **1. Januar** oder **1. Juli**, muss **für jede Periode separat** gerechnet werden.
@@ -118,6 +123,8 @@ Die erste Mahnung darf Gebühren enthalten, wenn:
 > [!example] Beispiel: Mietvertrag
 > Miete ist immer am 1. des Monats fällig (§ 556b BGB). Bei verspäteter Zahlung ist der Mieter sofort in Verzug → Erste Mahnung kann Kosten enthalten.
 
+<div style="page-break-after: always;"></div>
+
 ### Höhe der Mahngebühren
 #### Gesetzliche Regelung
 Es gibt **keine gesetzlich festgelegte Maximalhöhe** für Mahngebühren.
@@ -158,6 +165,9 @@ Bei **B2B-Geschäften** (Unternehmer zu Unternehmer):
 
 > [!warning] Wichtig
 > Der Gläubiger kann **höhere Zinsen** verlangen, wenn vertraglich vereinbart oder wenn ein höherer Schaden nachgewiesen wird (§ 288 Abs. 3 und 4 BGB).
+
+<div style="page-break-after: always;"></div>
+
 ## Unterschied B2C vs. B2B
 
 | Kriterium | B2C (Verbraucher) | B2B (Unternehmer) |

@@ -25,6 +25,8 @@ Vermögensgegenstände, die **kurzfristig** im Unternehmen sind (< 1 Jahr)
 >- Kasse (Bargeld)
 >- Vorräte/Warenbestand
 
+<div style="page-break-after: always;"></div>
+
 ## Passiva (Kapitalseite)
 Wie wurde das Vermögen finanziert?
 - Die rechte Seite der Bilanz zeigt, **woher** das Kapital kommt
@@ -72,6 +74,8 @@ Wie wurde das Vermögen finanziert?
 - Zinszahlungen
 - Kann zu Überschuldung führen
 
+<div style="page-break-after: always;"></div>
+
 ## Eigenkapitalquote
 - Zeigt den Anteil des Eigenkapitals am Gesamtkapital
 - Je höher, desto stabiler ist das Unternehmen finanziert
@@ -98,6 +102,8 @@ $$\text{Verschuldungsgrad} = \frac{\text{Fremdkapital}}{\text{Eigenkapital}} \ti
 - Die GuV zeigt, **wie** der Gewinn oder Verlust entstanden ist
 - Gegenüberstellung von Aufwendungen (Kosten) und Erträgen (Einnahmen)
 - Der Gewinn/Verlust fließt in das Eigenkapital der Bilanz ein
+
+<div style="page-break-after: always;"></div>
 
 ### Gewinnberechnung
 

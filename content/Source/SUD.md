@@ -65,3 +65,8 @@
 - [[Unit Testing and JUnit]]
 - [[Singleton Pattern]]
 - [[Strategy Pattern]]
+----
+- [[Template Method Pattern]]
+- [[State Pattern]]
+- [[Command Pattern]]
+- [[Decorator Pattern]]

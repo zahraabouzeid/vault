@@ -75,7 +75,3 @@ In der Wohlverhaltensphase muss der Schuldner eine "angemessene" Lebensweise fü
 **Andere Vermögenswerte:**
 *   **Während des Insolvenzverfahrens:** Erbe, Geschenke und Lotteriegewinne gehen **komplett** an die Gläubiger.
 *   **In der Wohlverhaltensphase:** Der Schuldner behält diese Einkünfte.
-
----
-
-### 5. Wichtige Begriffe aus dem Glossar (Auszug)

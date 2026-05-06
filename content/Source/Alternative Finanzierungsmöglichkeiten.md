@@ -29,6 +29,8 @@ Ein spezieller Kredit zum Kauf eines Fahrzeugs, bei dem das Auto selbst als Sich
 - Zweckgebundener Kredit (nur für Fahrzeug)
 - Kreditsumme sollte genau kalkuliert sein
 
+<div style="page-break-after: always;"></div>
+
 ## Dispositionskredit 
 
 Ein Kreditrahmen auf dem Girokonto, der jederzeit in Anspruch genommen werden kann.
@@ -60,6 +62,8 @@ Ein Kreditrahmen auf dem Girokonto, der jederzeit in Anspruch genommen werden ka
 > [!danger] 
 > Banken haben Kunden zugesichert, dass diese jederzeit über das Geld im Rahmen ihres Kreditlimits verfügen können. Die Bank muss Tag und Nacht damit rechnen, dass der Kunde sein Konto überzieht. Deshalb sind die Zinsen so hoch!
 
+<div style="page-break-after: always;"></div>
+
 ## Konsum-Ratenkredit
 
 Der klassische Anschaffungskredit mit festen monatlichen Raten.
@@ -86,6 +90,8 @@ Der klassische Anschaffungskredit mit festen monatlichen Raten.
 - Kreditsumme sollte genau kalkuliert sein
 - Bei verspäteter Zahlung: Mahn-/Inkassogebühren möglich
 
+<div style="page-break-after: always;"></div>
+
 ## Rahmenkredit
 
 Ein flexibler Kreditrahmen, bei dem beliebig Beträge abgerufen und zurückgezahlt werden können.
@@ -109,6 +115,8 @@ Ein flexibler Kreditrahmen, bei dem beliebig Beträge abgerufen und zurückgezah
 
 - Oft keine Sondertilgung möglich
 - Eventuell werden Mindesttilgungen von der Bank verlangt
+
+<div style="page-break-after: always;"></div>
 
 ## Kreditkarte
 
@@ -136,6 +144,9 @@ Eine Zahlungskarte mit kurzfristigem zinsfreiem Zahlungsaufschub.
 > [!info] 
 > Bei einer normalen EC-Karte (Debitkarte) wird das Geld sofort abgebucht. Bei der Kreditkarte erst am Monatsende.
 
+
+<div style="page-break-after: always;"></div>
+
 ## Peer-to-Peer-Kredite (P2P-Kredite)
 
 Kredite von Privatpersonen oder Unternehmen über Online-Plattformen.
@@ -161,7 +172,9 @@ Kredite von Privatpersonen oder Unternehmen über Online-Plattformen.
 - In der Regel schlechtere Konditionen als bei Bank
 - Bei Zahlungsschwierigkeiten oft kein Zahlungsaufschub möglich
 
-# Leasing
+<div style="page-break-after: always;"></div>
+
+## Leasing
 
 Leasing ist eine Form der Finanzierung, bei der ein Gegenstand (z.B. Auto, Maschine) für einen festgelegten Zeitraum **gemietet** wird, ohne ihn zu kaufen. Der Leasingnehmer nutzt den Gegenstand gegen regelmäßige Leasingraten, wird aber **nie Eigentümer**.
 
@@ -189,6 +202,8 @@ $$\text{Leasingrate} = \frac{(\text{Kaufpreis} - \text{Restwert})}{\text{Laufzei
 - Kilometergrenze bei Fahrzeugen
 - Kosten für Beschädigungen am Leasingende
 - Gesamtkosten oft höher als bei Kreditfinanzierung
+<div style="page-break-after: always;"></div>
+
 ## Vergleich der Finanzierungsalternativen
 
 |Finanzierungsart|Hauptmerkmal|Bester Einsatz|Zinsniveau|
@@ -219,6 +234,8 @@ $$\text{Leasingrate} = \frac{(\text{Kaufpreis} - \text{Restwert})}{\text{Laufzei
 > - Für **kurzfristige Engpässe** (max. 1-2 Monate): Dispositionskredit
 > - Für **flexible Finanzierung**: Rahmenkredit
 > - **Niemals**: Langfristig im Dispo bleiben!
+
+<div style="page-break-after: always;"></div>
 
 ## Vergleich von Alternativen
 | Kriterium    | Dispositionskredit                                     | Ratenkredit                               | Autokredit                                          |
