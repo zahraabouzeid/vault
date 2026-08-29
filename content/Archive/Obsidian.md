@@ -47,7 +47,7 @@
 - [Git](obsidian://show-plugin?id=obsidian-git)
 - [Custom Frames](obsidian://show-plugin?id=obsidian-custom-frames)
 - [Calendar](obsidian://show-plugin?id=calendar)
-- [Excalidraw]()
+- [Excalidraw](obsidian://show-plugin?id=obsidian-excalidraw-plugin)
 - [Hider](obsidian://show-plugin?id=obsidian-hider)
 - [File-Hider](obsidian://show-plugin?id=OA-file-hider)
 
