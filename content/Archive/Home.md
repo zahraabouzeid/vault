@@ -1,5 +1,5 @@
 ---
-title: Start Here
+title: Home
 ---
 >[!warning] This is an older version of Synaptic. I'll gradually restore notes while working on the new version.
 
