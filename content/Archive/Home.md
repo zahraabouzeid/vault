@@ -1,8 +1,7 @@
 ---
 title: Start Here
 ---
->[!warning]
->This is an older version of Synaptic. I'll gradually restore notes while working on the new version.
+>[!warning] This is an older version of Synaptic. I'll gradually restore notes while working on the new version.
 
 Welcome to **Synaptic** by [Zahraa Bou Zeid](Archive/Source/About%20Me.md)! Below is a breakdown of the content categories you'll find within:
 
