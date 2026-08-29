@@ -1,2 +1,0 @@
-- [Emerald](Emerald.md)
-- [Nova](Nova.md)

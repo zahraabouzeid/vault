@@ -1,8 +1,0 @@
-- [[Static Klassenvariablen und Methoden]]
-- [[Interfaces in Java]]
-- [[Generics, Collections und Maps]]
-- [[Dynamische Arrays]]
-- [[Verkettete Listen]]
-- [[Kontrollfragen]]
-- [[Klausurrelevant]]
-- [[Übung]]
